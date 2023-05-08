@@ -3,7 +3,7 @@ services:
   nextapp:
     environment:
       - APP_NAME=app # ここを変えた場合.devcontainer.jsonのeslintの設定を変えなければならない
-    container_name: nextapp
+    container_name: next-template
     build:
       context: .
       dockerfile: next_dev/Dockerfile

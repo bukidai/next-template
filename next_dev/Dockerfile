@@ -7,3 +7,4 @@ EOF
 USER node
 COPY next_dev/setup.sh /home/node/
 WORKDIR /home/node/app
+CMD [ "bash" ]
